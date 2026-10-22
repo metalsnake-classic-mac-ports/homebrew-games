@@ -1,18 +1,22 @@
-# Metalsnake-classic-mac-ports Games
+# MetalSnake's Classic Mac Ports: Homebrew tap
 
-## How do I install these formulae?
+Classic Mac games, rewritten for modern systems.
 
-`brew install metalsnake-classic-mac-ports/games/<formula>`
+| Formula | Game |
+|---|---|
+| `ouro-scout` | [Ouro S.C.Out](https://metalsnake-classic-mac-ports.github.io/Ouro-S.C.Out/): S.C.Out (Kalisto, 1993) |
 
-Or `brew tap metalsnake-classic-mac-ports/games` and then `brew install <formula>`.
+## Install
 
-Or, in a `brew bundle` `Brewfile`:
+    brew install metalsnake-classic-mac-ports/games/ouro-scout
 
-```ruby
-tap "metalsnake-classic-mac-ports/games"
-brew "<formula>"
-```
+Then start the game with `ouro-scout`. Prebuilt bottles exist for Apple
+silicon Macs (macOS 14 and newer) and Linux; elsewhere Homebrew builds the
+game from source, which needs a few minutes.
 
-## Documentation
+## Updating a formula (maintainers)
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Open a pull request with the change: GitHub Actions build and test the
+bottles. When the checks are green, run the "brew pr-pull" workflow with the
+pull request number (`gh workflow run publish.yml -f pull_request=N`); it
+uploads the bottles to GitHub Packages and merges the change.
