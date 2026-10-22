@@ -11,7 +11,7 @@ Classic Mac games, rewritten for modern systems.
     brew install metalsnake-classic-mac-ports/games/ouro-scout
 
 Then start the game with `ouro-scout`. Prebuilt bottles exist for Apple
-silicon Macs (macOS 14 and newer) and Linux; elsewhere Homebrew builds the
+silicon Macs (macOS 15 and newer) and Linux; elsewhere Homebrew builds the
 game from source, which needs a few minutes.
 
 ## Updating a formula (maintainers)
