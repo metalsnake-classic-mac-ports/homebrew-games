@@ -6,6 +6,13 @@ class OuroScout < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/metalsnake-classic-mac-ports/Ouro-S.C.Out.git", branch: "master"
 
+  bottle do
+    root_url "https://ghcr.io/v2/metalsnake-classic-mac-ports/games"
+    sha256 cellar: :any, arm64_tahoe:   "edab85bd60270983fe9bda02a7cb50eb205bd3f1675a75bf47e6ed2cc3608250"
+    sha256 cellar: :any, arm64_sequoia: "eeb902d6d23ab8e4ff1a5bac29f8044c27087fc91d4d9e9620f6aabd04d250b1"
+    sha256 cellar: :any, x86_64_linux:  "b60633058f96c974af9cc8829df401d64e8055aae216095826c5a7ae2dc78cdd"
+  end
+
   depends_on "rust" => :build
   depends_on "sdl3"
 
