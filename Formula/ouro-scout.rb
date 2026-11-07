@@ -6,7 +6,6 @@ class OuroScout < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/metalsnake-classic-mac-ports/Ouro-S.C.Out.git", branch: "master"
 
-
   depends_on "rust" => :build
   depends_on "sdl3"
 
