@@ -6,6 +6,13 @@ class OuroHarry < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/metalsnake-classic-mac-ports/Ouro-Harry-the-Handsome-Executive.git", branch: "main"
 
+  bottle do
+    root_url "https://ghcr.io/v2/metalsnake-classic-mac-ports/games"
+    sha256 cellar: :any, arm64_tahoe:   "bb02159ffd4c9b848d6dc0166be10fc98a14c0c463c7b7682c0bdea8580f2776"
+    sha256 cellar: :any, arm64_sequoia: "c8e599bfbb31fdf41d0dc139d9693691e98948dc1eaabafbac28af6e22b2f1cc"
+    sha256 cellar: :any, x86_64_linux:  "343199db84d888a0ba7119f53231db3e014b75738065610fc09932e692f2eff6"
+  end
+
   depends_on "rust" => :build
   depends_on "sdl3"
 
