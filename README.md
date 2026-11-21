@@ -9,8 +9,10 @@ Classic Mac games, rewritten for modern systems.
 
 ## Install
 
-    brew install metalsnake-classic-mac-ports/games/ouro-scout
-    brew install metalsnake-classic-mac-ports/games/ouro-harry
+```sh
+brew install metalsnake-classic-mac-ports/games/ouro-scout
+brew install metalsnake-classic-mac-ports/games/ouro-harry
+```
 
 Then start the game with `ouro-scout` or `ouro-harry`. Prebuilt bottles exist for Apple
 silicon Macs (macOS 15 and newer) and Linux; elsewhere Homebrew builds the
