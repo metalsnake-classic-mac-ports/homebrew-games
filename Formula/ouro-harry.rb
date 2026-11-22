@@ -4,6 +4,7 @@ class OuroHarry < Formula
   url "https://github.com/metalsnake-classic-mac-ports/Ouro-Harry-the-Handsome-Executive/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "5f935f760c0fb3ed27eb25d1ce394fdf1ec92a85b7c855196c8c1d2b168da1e4"
   license "GPL-3.0-or-later"
+  revision 1
   head "https://github.com/metalsnake-classic-mac-ports/Ouro-Harry-the-Handsome-Executive.git", branch: "main"
 
   bottle do

@@ -4,6 +4,7 @@ class OuroScout < Formula
   url "https://github.com/metalsnake-classic-mac-ports/Ouro-S.C.Out/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "acfc3ddd237f76f26af159c7657585d5e08b808d83529de53b65c7e7fb0d5af6"
   license "GPL-3.0-or-later"
+  revision 1
   head "https://github.com/metalsnake-classic-mac-ports/Ouro-S.C.Out.git", branch: "master"
 
   bottle do
