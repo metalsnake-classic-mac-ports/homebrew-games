@@ -9,9 +9,11 @@ class OuroScout < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/metalsnake-classic-mac-ports/games"
-    sha256 cellar: :any, arm64_tahoe:   "457349cb208d52875298cdb8a35c9f6d02b405e434234ea4bb893006e5e1408b"
-    sha256 cellar: :any, arm64_sequoia: "4385c0bdfdf4ea16ccad9b7a4a319519f9a2e2320fb8ff7d611f522f61f65d04"
-    sha256 cellar: :any, x86_64_linux:  "981c999078da36543f0296e5e2c8da5387a7f782a3839e031e905c0e7d058589"
+    manifest_sha256 "871d86496f6c19f0ad3aef06cc66fd808166e12144e930844bc500556482d4c7"
+    sha256 cellar: :any, arm64_tahoe:   "adb7ca17fae065fd0a0756d9b7b3de80dffa216d3c92267ee2190d74c97dc581"
+    sha256 cellar: :any, arm64_sequoia: "5a3a6a83d376d538c9a037652e2cc7799487e256a1ab08dbce49fdf87a4d4a70"
+    sha256 cellar: :any, arm64_linux:   "02a301b46a763d8fbb41182425648f9906b6f4391f4a61020020259fefd80e04"
+    sha256 cellar: :any, x86_64_linux:  "fd8c57f7189f668d9460d179a20c7c70d863641ff898d62c9389d51afe427905"
   end
 
   depends_on "rust" => :build
