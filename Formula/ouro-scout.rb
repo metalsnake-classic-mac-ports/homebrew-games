@@ -8,11 +8,11 @@ class OuroScout < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/metalsnake-classic-mac-ports/games"
-    manifest_sha256 "871d86496f6c19f0ad3aef06cc66fd808166e12144e930844bc500556482d4c7"
-    sha256 cellar: :any, arm64_tahoe:   "adb7ca17fae065fd0a0756d9b7b3de80dffa216d3c92267ee2190d74c97dc581"
-    sha256 cellar: :any, arm64_sequoia: "5a3a6a83d376d538c9a037652e2cc7799487e256a1ab08dbce49fdf87a4d4a70"
-    sha256 cellar: :any, arm64_linux:   "02a301b46a763d8fbb41182425648f9906b6f4391f4a61020020259fefd80e04"
-    sha256 cellar: :any, x86_64_linux:  "fd8c57f7189f668d9460d179a20c7c70d863641ff898d62c9389d51afe427905"
+    manifest_sha256 "9ef76c497bd4fea0b541a4fcb4e59f7a69511652bcfb6a1219cd0829db9080b0"
+    sha256 cellar: :any, arm64_tahoe:   "74bd95faeae444663bbd1b2857f2c8b1ae9a950c0ff8520b60c6005f9af44895"
+    sha256 cellar: :any, arm64_sequoia: "b9c39d45b91ad4946ae9250ba14cd2c388c319008ee1c2bc4af80664fe52a18e"
+    sha256 cellar: :any, arm64_linux:   "1e44dd9b423f19b76c786d921eb4d58da0c867f99d26e7b897f906957e71d090"
+    sha256 cellar: :any, x86_64_linux:  "c4ddf8778b44ea239a9f8fef221d7e3ad0e8e3079c3bf774f8ae959eec5e9bf1"
   end
 
   depends_on "rust" => :build
