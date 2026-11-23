@@ -1,10 +1,9 @@
 class OuroHarry < Formula
   desc "Faithful port of the 1997 Mac game Harry the Handsome Executive"
   homepage "https://metalsnake-classic-mac-ports.github.io/Ouro-Harry-the-Handsome-Executive/"
-  url "https://github.com/metalsnake-classic-mac-ports/Ouro-Harry-the-Handsome-Executive/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "5f935f760c0fb3ed27eb25d1ce394fdf1ec92a85b7c855196c8c1d2b168da1e4"
+  url "https://github.com/metalsnake-classic-mac-ports/Ouro-Harry-the-Handsome-Executive/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "043a5f918a883e112e0bbd92b537e3a4189ec435b89f37d90a2f508bbb00270f"
   license "GPL-3.0-or-later"
-  revision 1
   head "https://github.com/metalsnake-classic-mac-ports/Ouro-Harry-the-Handsome-Executive.git", branch: "main"
 
   bottle do
